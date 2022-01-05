@@ -1,0 +1,59 @@
+.idea/
+
+Ignore all __pycache__ files
+__pycache__/
+
+# Distribution / packaging
+.Python
+.env
+.xlsx
+.csv
+
+env/
+venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+.vscode/
+
+*.sqlite3
+
+#migration folder
+*.migrations
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+.DS_Store
+*.sqlite3
+media/
+*.pyc
+*.db
+*.pid
+
+
+migrationsMover.sh
